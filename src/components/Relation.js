@@ -61,7 +61,7 @@ const Relation =()=>{
                 <button onClick={calculateRelationship} data-testid="calculate_relationship">Calculate Relationship Future</button>
                 <button onClick={clearInputs} data-testid="clear">Clear</button>
 
-                <h1>{relationshipStatus}</h1>
+                <h3 data-testid="answer">{relationshipStatus}</h3>
             </div>
         )
     }
