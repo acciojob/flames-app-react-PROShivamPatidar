@@ -52,10 +52,10 @@ const Relation =()=>{
         return (
             <div id="main">
                 {/* Do not remove the main div */}
-                <input type="text" placeholder="Enter first name" value={firstName}
+                <input type="text" name="name1" placeholder="Enter first name" value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     data-testid="input1" />
-                <input type="text" placeholder="Enter second name" value={secondName}
+                <input type="text"name="name2" placeholder="Enter second name" value={secondName}
                     onChange={(e) => setSecondName(e.target.value)}
                     data-testid="input2" />
                 <button onClick={calculateRelationship} data-testid="calculate_relationship">Calculate Relationship Future</button>
